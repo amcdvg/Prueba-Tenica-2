@@ -1,0 +1,38 @@
+Este proyecto está construido de forma local, se trabaja desde la aplicación 
+de mongoDB compass cuyo localhost:27017, pero se puede varíar, así mismo, 
+se puede trabajar con aplicaciones web como MongoDB Atlas website, que podriamos
+conectar.
+
+Puedes iniciar sesión con una cuenta de MongoDB Atlas, y crear un clúster de
+inicio seleccionando el proveedor de servicios en la nube deseado,
+el nivel de clúster y el nombre de su clúster. 
+El clúster tarda entre 1 y 3 minutos en estar listo. O si trabajr de forma local
+debes de crear la base de dtos especificando el nombre y tmabién el de la 
+colección donde quieres depositar la base de datos que lees de la URL
+
+Una vez que creé la carpeta de trabajo, ejecuté los siguientes comandos en una
+terminal cmd  para trabajar con Python Flask, 
+
+virtualenv env
+env\Scripts\activate.bat
+
+Luego en una terminal Git bash en la dirección donde trabajé el proyecto
+ejecuté el siguiente comandos
+
+touch app.py .gitignore README.md requirements.txt
+
+Luego se regresa al  terminal de simbolo de sistema para Instalar Flask 
+y agregar las bibliotecas instaladas a nuestro archivo requirements.txt:
+
+pip install Flask
+
+Para la conexión con el MongoDB se utilizaron los siguientes comandos en 
+terminal del simbolo del sistema
+
+pip install flask_pymongo 
+pip install dnspython
+python -m pip install requests
+
+
+
+
